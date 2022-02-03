@@ -3,6 +3,11 @@
  * a single digit. Add the two numbers and return the sum as a linked list.
  * 
  * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+ * Ex:
+ * l1 = 1->2->3
+ * l2 = 4->5->6
+ * 
+ * O/P: 975
  *  
  */
 var addTwoNumbers = function (l1, l2) {

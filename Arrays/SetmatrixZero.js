@@ -1,4 +1,4 @@
-/**
+/**MEDIUM
  * Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's, and return the matrix.
  * You must do it in place.
  * 
@@ -8,7 +8,8 @@
  * 
  * Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
  * Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]] 
- * Approach: If an element is zero then do a scan of complete row and column. Since we need to do in place, we will temporarily mark cells to be made zero as x in case we have not already visited that cell. When we actually visit
+ * Approach: If an element is zero then do a scan of complete row and column. Since we need to do in place, we will temporarily mark cells to be made zero as x 
+ * in case we have not already visited that cell. When we actually visit
  * the cell we will change it to 0.  
  * 
  */
